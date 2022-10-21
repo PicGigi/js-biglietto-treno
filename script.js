@@ -1,4 +1,4 @@
-const kilometers = parseFloat(prompt("Benvenuto su Train Ticket.com! Quanti chilometri devi percorrere?"));
+const kilometers = parseFloat(prompt("Benvenuto su TrainTicket.com! Quanti chilometri devi percorrere?"));
 var price = parseFloat(kilometers * 0.21).toFixed(2);
 console.log("Il prezzo del biglietto è", price, "€");
 const age = parseInt(prompt("Quanti anni hai?"));
